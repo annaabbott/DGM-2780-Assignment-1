@@ -184,12 +184,12 @@ main div.hero2Right p.buttonLight {
     margin: 2rem auto;
 }
 
-footer {
+.footer {
     display: flex;
     margin-top: 120px;
     background-color: #FB7852;
     color: #fff;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .footer div.footerLeft {
@@ -200,4 +200,9 @@ footer {
 footer p.button {
     border: 1px solid #fff;
     margin: 2rem auto;
+}
+
+.footer div.footerRight {
+    padding: 0 94px 0 0;  
+    text-align: center;  
 }
